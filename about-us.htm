@@ -1,0 +1,394 @@
+﻿<!doctype html>
+<head>
+<title>
+</title>
+<style>
+    
+    #head
+    {
+        width: 35%;
+        
+        padding: 5px;
+        
+        color: brown;
+        display:inline-block;
+        margin-top:10px;
+        margin-left: 10px;
+        
+                       
+    }
+    #toll
+    {
+        width: 62%;
+        display: inline-block;
+        text-align: right;
+        float: right;
+        
+        font-family: sans-serif;
+        font-size: 17px;
+        padding: 5px;
+        margin-top:5px;
+        color: black;
+        margin-right: 5px;
+    }
+    #menu
+    {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin-top:5px;
+        
+        margin-right: 5px;
+    }
+    
+    .dropbtn 
+    {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown 
+    {
+        position: relative;
+        display: inline-block;
+    }
+
+/* Dropdown Content (Hidden by Default) */
+    .dropdown-content
+    {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+/* Links inside the dropdown */
+    .dropdown-content a 
+    {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+/* Change color of dropdown links on hover */
+    .dropdown-content a:hover 
+    {
+        background-color: #f1f1f1
+    }
+
+/* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content 
+    {
+        display: block;
+
+    }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn 
+    {
+        background-color: #3e8e41;
+    }
+    #main
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        
+        color: black;
+        padding: 20px;
+        border: 2px #ccc solid;
+        
+    }
+    #foot
+    {
+        border-bottom: 1px #ccc solid;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        
+        
+         
+    }
+    table
+    {
+        font-family: georgia;
+        line-height: 25px;
+        padding-left: 20px; 
+        table-layout: inherit;
+        float: inherit;
+      
+    }
+    p
+    { 
+        line-height: 1.5em; 
+        font-family: "GEORGIA";
+        
+        
+    }
+    h2, h3, h4
+    {
+        color: orange;
+        font-weight: normal;
+        line-height: 1.8em;
+        margin: 0 0 .7em 0;
+    }
+    h1
+    { 
+        font-size: 3.7em;
+        font-family: "footlight mt"; 
+    }
+    h2
+    {
+        font-size: 1.5em;
+        font-family: "footlight mt"
+    }
+    a
+    {
+        color: black;
+        text-decoration: none;
+        
+    }
+    a:hover,a:active
+    { 
+        text-decoration: underline;
+    }
+    body
+    {
+        font-family: arial;
+        font-size: 80%;
+        width: 100%; 
+        margin: 0; 
+        background: black;
+    }
+    #home{
+        background: #eee;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+  
+    <div id=home>
+        <div id="head">
+            <h1>
+                    <a href="img.htm" target="_blank">
+                    <img src=rc.jpeg height=40 width=80>
+                    </a>    
+                    &nbsp;
+                    <u>
+                    Blood Bank    
+                    </u>
+            </h1>
+        
+        </div>
+        
+        
+        <div id=toll>
+            <p>Donate blood now!</p>
+            <p>Dial on the toll-free number to be a hero: 1800-6666-6969</p>
+        </div>
+        
+        <div id=menu>
+            <center>
+                
+            <table height=100 width=800>
+                
+                <tr>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            <a href=home-page.htm>Home</a>
+                        </button>
+                        
+                        </div>    
+                    </td>
+                    
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            About RBB
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=about-us.htm>About Us</a>
+                            <hr>
+                            <a href=#>Our Team</a>
+                            <hr>
+                            <a href=#>ISO Certified</a>
+                            <hr>
+                            <a href=#>Technology</a>
+                            <hr>
+                            <a href=#>Work with us</a>
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Blood
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=blood.htm>About Blood</a>
+                            <hr>
+                            <a href=why-donate-blood.htm>Why donate blood?</a>
+                            <hr>
+                            <a href=facts.htm>Facts</a>
+                        </div>
+                        </div>    
+                    </td>   
+                    
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Donor
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=#>Donate Blood</a>
+                            <hr>
+                            <a href=#>Donor Policy</a>
+                        </div>      
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Need Blood
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=registration-form.html>Requisition Form</a>
+                            <hr>
+                            <a href=#>Procedure</a>
+                            
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Get Involved
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=#>Host a camp</a>
+                            <hr>
+                            <a href=donate-blood.htm>Donate Blood</a>
+                            <hr>
+                            <a href=#>Donate Money</a>
+                            <hr>
+                            <a href=#>Find nearby blood camps</a>
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Support
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=#>F.A.Q</a>
+                            <hr>
+                            <a href=#>Feedback</a>
+                            <hr>
+                            <a href=#>Contact Us</a>
+                        </div>
+                        </div>    
+                    
+                    </td>
+                </tr>
+                </table>
+            </center>    
+        </div>
+        
+        
+         
+        <div id=main>
+            <h2>
+                    <b>
+                        About Us
+                    </b>
+                </h2>
+        
+        
+        <p><big>
+                    <big>
+                        <big>
+                            
+                                <font size=4 face="footlight mt">
+                
+        'Rotary Blood Bank' is the first product resulted out of the community welfare initiative called 'People Project' from uSiS Technologies. Universally, 'Blood' is recognized as the most precious element that sustains life. It saves innumerable lives across the world in a variety of conditions. Once in every 2- seconds, someone, somewhere is desperately in need of blood. More than 29 million units of blood components are transfused every year. The need for blood is great - on any given day, approximately 39,000 units of Red Blood Cells are needed. Each year, we could meet only up to 1% (approx) of our nation’s demand for blood transfusion.
+    
+                                </font>
+                        </big>
+                    </big>
+                </big>
+            </p>
+            <p>
+                <big>
+                    <big>
+                        <big>
+                            
+                                <font size=4 face="footlight mt">
+        Despite the increase in the number of donors, blood remains in short supply during emergencies, mainly attributed to the lack of information and accessibility. We positively believe this tool can overcome most of these challenges by effectively connecting the blood donors with the blood recipients.
+                            </font>
+                        </big>
+                    </big>
+                </big>
+            </p>
+            <img src="About-Us.png" height="500" width="1500">
+                 
+        
+            
+        </div>
+        
+        
+<div id=foot>
+                <p align=right>
+                    
+                    <font face="footlight mt">
+                        Webpage made by 
+                        <a href="/" target="_blank">
+                            Varki Deepak Shubham
+                        </a>
+                        
+                    </font>    
+                </p>
+                <p align=center>
+                    
+                    <font face="footlight mt">
+                        Copyright &copy; 2017-
+                        <a href="format.htm" target="_blank">
+                            Rotary Blood Bank
+                        </a>
+                         All Rights Reserved
+
+                        
+                    </font>    
+                </p>
+                <p align=center>
+                    
+                    <font face="footlight mt">
+                        Sponsored by
+                        <a href="http://www.lpu.in/" target="_blank">
+                            Lovely Professional University
+                        </a>
+                         And powered by 
+                        <a href="https://www.ibm.com/in-en/" target="_blank">
+                            IBM Computers
+                        </a>
+                        
+
+                        
+                    </font>    
+                </p>
+            </div>
+   
+</div>    
+</body>
+
+</html>
+        

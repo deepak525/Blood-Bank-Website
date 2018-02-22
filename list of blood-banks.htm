@@ -1,0 +1,988 @@
+<!Doctype html>
+<head>
+    <title>Table</title>
+    <style>
+    #head
+    {
+        width: 35%;
+        
+        padding: 5px;
+        
+        color: brown;
+        display:inline-block;
+        margin-top:10px;
+        margin-left: 10px;
+        
+                       
+    }
+    #toll
+    {
+        width: 62%;
+        display: inline-block;
+        text-align: right;
+        float: right;
+        
+        font-family: sans-serif;
+        font-size: 17px;
+        padding: 5px;
+        margin-top:5px;
+        color: black;
+        margin-right: 5px;
+    }
+    #menu
+    {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin-top:5px;
+        
+        margin-right: 5px;
+    }
+    
+    .dropbtn 
+    {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown 
+    {
+        position: relative;
+        display: inline-block;
+    }
+
+/* Dropdown Content (Hidden by Default) */
+    .dropdown-content
+    {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+/* Links inside the dropdown */
+    .dropdown-content a 
+    {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+/* Change color of dropdown links on hover */
+    .dropdown-content a:hover 
+    {
+        background-color: #f1f1f1
+    }
+
+/* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content 
+    {
+        display: block;
+
+    }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn 
+    {
+        background-color: #3e8e41;
+    }
+    #main
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        background: white;
+        color: black;
+        padding: 20px;
+        border: 2px #ccc solid;
+        
+    }
+    #foot
+    {
+        border-bottom: 1px #ccc solid;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        
+        
+         
+    }
+    table
+    {
+        font-family: georgia;
+        line-height: 25px;
+        padding-left: 20px; 
+        table-layout: inherit;
+        float: inherit;
+      
+    }
+    p
+    { 
+        line-height: 1em; 
+        font-family: "GEORGIA"; 
+        
+    }
+    h2, h3, h4
+    {
+        color: orange;
+        font-weight: normal;
+        line-height: 1.1em;
+        margin: 0 0 .5em 0;
+    }
+    h1
+    { 
+        font-size: 3.7em;
+        font-family: "footlight mt"; 
+    }
+    h2
+    {
+        font-size: 1.5em;
+        font-family: "footlight mt"
+    }
+    a
+    {
+        color: black;
+        text-decoration: none;
+        
+    }
+    a:hover,a:active
+    { 
+        text-decoration: underline;
+    }
+    body
+    {
+        font-family: arial;
+        font-size: 80%;
+        width: 100%; 
+        margin: 0; 
+        background: black;
+    }
+    #home{
+        background: #eee;
+    }
+    
+
+
+    </style>
+
+</head>
+<body>
+    
+      <div id=home>
+        <div id="head">
+            <h1>
+                    <a href="img.htm" target="_blank">
+                    <img src=rc.jpeg height=40 width=80>
+                    </a>    
+                    &nbsp;
+                    <u>
+                        Rotary Blood Bank    
+                    </u>
+            </h1>
+        
+        </div>
+        
+        
+        <div id=toll>
+            <p>Donate blood now!</p>
+            <p>Dial on the toll-free number to be a hero: 1800-6666-6969</p>
+        </div>
+        
+        <div id=menu>
+            <center>
+                
+            <table height=100 width=800>
+                
+                <tr>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            <a href=home-page.htm>Home</a>
+                        </button>
+                        
+                        </div>    
+                    </td>
+                    
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            About RBB
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=about-us.htm>About Us</a>
+                            <hr>
+                            <a href=#>Our Team</a>
+                            <hr>
+                            <a href=#>ISO Certified</a>
+                            <hr>
+                            <a href=#>Technology</a>
+                            <hr>
+                            <a href=#>Work with us</a>
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Blood
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=blood.htm>About Blood</a>
+                            <hr>
+                            <a href=why-donate-blood.htm>Why donate blood?</a>
+                            <hr>
+                            <a href=facts.htm>Facts</a>
+                        </div>
+                        </div>    
+                    </td>   
+                    
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Donor
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=donate-blood.htm>Donate Blood</a>
+                            <hr>
+                            <a href=#>Donor Policy</a>
+                        </div>      
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Need Blood
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=registration-form.html>Requisition Form</a>
+                            <hr>
+                            <a href=#>Procedure</a>
+                            
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Get Involved
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=#>Host a camp</a>
+                            <hr>
+                            <a href=donate-blood.htm>Donate Blood</a>
+                            <hr>
+                            <a href=#>Donate Money</a>
+                            <hr>
+                            <a href=#>Find nearby blood camps</a>
+                        </div>
+                        </div>    
+                    </td>
+                    <td>
+                        <div class=dropdown>
+                        <button class=dropbtn>
+                            Support
+                        </button>
+                        <div class=dropdown-content>
+                            <a href=#>F.A.Q</a>
+                            <hr>
+                            <a href=#>Feedback</a>
+                            <hr>
+                            <a href=#>Contact Us</a>
+                        </div>
+                        </div>    
+                    
+                </tr>
+            </table>
+            </center>    
+        </div>
+          
+        
+        <div id=main>
+                <h2>
+                    <b>
+                        List of Blood Banks in the cities
+                    </b>
+                </h2>
+        
+  
+    <div id=main>
+    <table align="center" cellspacing="2" cellpadding="2" border=3 align="center" height="100%" width="80%">
+        <tr>
+            <td bgcolor="c0c0c0">City Name</td>
+            <td bgcolor="c0c0c0">Name Of Blood Bank</td>
+            <td bgcolor="c0c0c0">Adress</td>
+            <td bgcolor="c0c0c0">Licence No.</td>
+            <td bgcolor="c0c0c0">Phone</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Delhi</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>Ansari Nagar, Ring Road, New Delhi</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+        <tr>
+            <td>Blood Bank, Dr. R.M.L. Hospital</td>
+            <td>Connaught Place, New Delhi 110001</td>
+            <td>37325</td>
+            <td>234567</td>
+        </tr>
+        
+        <tr>
+            <td>Blood Bank, C.N. Centre, A.I.I.M.S.</td>
+            <td>Ansari Nagar, Ring Road, New Delhi 110029</td>
+            <td>83737</td>
+            <td>234567</td>
+        </tr>
+        
+        <tr>
+            <td>Blood Bank, E.S.I. Hospital</td>
+            <td>Raj Nagar, New Delhi 110029</td>
+            <td>46575</td>
+            <td>78464</td>
+        </tr>
+        
+        <tr>
+            <td>Blood Bank, G.B. Pant Hospital</td>
+            <td>Hari Nagar, New Delhi 110069	</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Jaipur</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Jaipur</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, jaipur 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar, jaipur 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar, jaipur 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, jaipur 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Kota</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>Mahaveer Nagar, Ring Road, Kota</td>
+            <td>07453</td>
+            <td>263746</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Ujjwal Nagar, Kota 110044</td>
+            <td>35464</td>
+            <td>263748</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar, kota 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar, kota 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, kota 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Varanasi</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Varanasi</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Varanasi 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar, Varanasi 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar, Varanasi 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Varanasi 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Jalandhar</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Jalandhar</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Jalandhar 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar, Jalandhar 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar, Jalandhar 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Jalandhar 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Surat</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Surat</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Surat 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar, Surat 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar, Surat 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Surat 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Ahmedabad</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Ahmedabad</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Ahmedabad 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Ahmedabad 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Ahmedabad 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Ahmedabad 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Mumbai</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Mumbai</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Mumbai 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Mumbai 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Mumbai 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Mumbai 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        
+        <tr>
+            <td rowspan="5">Chennai</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Chennai</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Chennai 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Chennai 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Chennai 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Chennai 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Kolkata</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Kolkata</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Kolkata 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Kolkata 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Kolkata 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Kolkata 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Pune</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Pune</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Pune 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Pune 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Pune 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Pune 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+         <tr>
+            <td rowspan="5">Bengaluru</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road,Bengaluru</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Bengaluru 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Bengaluru 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Bengaluru 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Bengaluru 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+         <tr>
+            <td rowspan="5">Amritsar</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Amritsar</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Amritsar 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Amritsar 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Amritsar 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Amritsar 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+         <tr>
+            <td rowspan="5">Patna</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Patna</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Patna 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Patna 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Patna 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Patna 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Bhopal</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Bhopal</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Bhopal 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Bhopal 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Bhopal 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Bhopal 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Ranchi</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Ranchi</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Ranchi 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Ranchi 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Ranchi 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Ranchi 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="5">Noida</td>
+            <td>Blood Bank, A.I.I.M.S.</td>
+            <td>vigyan Nagar, Ring Road, Noida</td>
+            <td>35858</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Batra Hospital</td>
+            <td>Okhla, Noida 110044</td>
+            <td>45763</td>
+            <td>234567</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, G.T.B. Hospital</td>
+            <td>Bharat Nagar,Noida 110069	</td>
+            <td>04837</td>
+            <td>239505</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Pitampura Blood Bank</td>
+            <td>Lajpat Nagar,Noida 110024</td>
+            <td>03837</td>
+            <td>235869</td>
+        </tr>
+        
+         <tr>
+            <td>Blood Bank, Rotary Blood Bank</td>
+            <td>AK-100, Shalimar Bagh, Noida 110069	</td>
+            <td>98675</td>
+            <td>237585</td>
+        </tr>
+        
+        
+        
+        
+        
+    </table>
+    </div>
+            
+    </div>
+          <div id=foot>
+                <p align=right>
+                    
+                    <font face="footlight mt">
+                        Webpage made by 
+                        <a href="/" target="_blank">
+                            Varki Deepak Shubham
+                        </a>
+                        
+                    </font>    
+                </p>
+                <p align=center>
+                    
+                    <font face="footlight mt">
+                        Copyright &copy; 2017-
+                        <a href="format.htm" target="_blank">
+                            Rotary Blood Bank
+                        </a>
+                         All Rights Reserved
+
+                        
+                    </font>    
+                </p>
+                <p align=center>
+                    
+                    <font face="footlight mt">
+                        Sponsored by
+                        <a href="http://www.lpu.in/" target="_blank">
+                            Lovely Professional University
+                        </a>
+                         And powered by 
+                        <a href="https://www.ibm.com/in-en/" target="_blank">
+                            IBM Computers
+                        </a>
+                        
+
+                        
+                    </font>    
+                </p>
+            </div>
+
+            
+    
+</body>
+</html>
